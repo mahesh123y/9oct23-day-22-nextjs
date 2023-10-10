@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react'
 // 2. Define Area
 
 
-const page = () => {
+const Page = () => {
     //2.1 Hooks area
     const [name4, setName4] = useState('Vikki') //Hook-1
 
@@ -34,4 +34,4 @@ const page = () => {
 
 //3. Export Area
 // 3.1 Default Export 
-export default page;
+export default Page;
